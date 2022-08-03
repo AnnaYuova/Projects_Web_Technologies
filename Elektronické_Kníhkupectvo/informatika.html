@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Elektronické kníhkupctvo </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/Zakladne_styly.css">
+        <link rel="stylesheet" type="text/css" href="css/Zanre_styly.css">
+    </head>
+
+    <body>
+
+      <header>
+        <div class="container header_container">
+          <div class = "row">
+            <div class = "col-6">
+              <a href="kontakt.html"> Kontakt </a>
+            </div>
+            <div class = "col-6 prihlasenie">
+              <a href="prihlasenie.html">
+                <img class="login_symbol" src="Obrazky/Ikony/login.png" alt="login_symbol">
+              </a>
+              <a href="prihlasenie.html"> Prihlásenie</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class = "row odsadenie">
+          <div class="col-lg-5 col-md-6 col-sm-6 order-lg-1 zakaz_zlomu ">
+              <img class="logo" src="Obrazky/Ikony/logo.png" alt="logo">
+          </div>
+          <div class = "col-lg-1 col-md-6  col-sm-6 order-lg-3 stlpec_kosik">
+            <a href="kosik.html">
+                <img class="kosik" src="Obrazky/Ikony/nakupny_kosik_2.jpg" alt="kosik">
+            </a>
+          </div>
+          <div class = "col-lg-5 offset-lg-1 col-md-12 col-sm-12 order-lg-2 stlpec_vyhladavanie ">
+              <form action="/" method="GET" class="form">
+                  <input type="search" placeholder="Zadajte názov knihy alebo meno autora..." class="search-field" />
+                  <button type="submit" class="search-button">
+                    <img src="Obrazky/Ikony/lupa2.png" alt="lupa">
+                  </button>
+                </form>
+          </div>
+        </div>
+        
+        <!--Navigacai-->
+        <div class = "row navigacia ">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div  id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                      <li class="nav-item active ">
+                          <a class="nav-link" href="domovska_stranka.html">Domov <span class="sr-only"></span></a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Beletria</a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="detektivky_a_trilery.html">Detektívky a Trilery</a>
+                              <a class="dropdown-item" href="fantasy.html">Fantasy</a>
+                              <a class="dropdown-item" href="romanticka.html">Romantická Beletria</a>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="detska.html">Pre deti a mládež</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Učebnice a slovníky</a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="informatika.html">Informatika</a>
+                              <a class="dropdown-item" href="matematika.html">Matematika</a>
+                              <a class="dropdown-item" href="cudzie_jazyky.html">Cudzie jazyky</a>
+                          </div>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="kucharske_knihy.html">Kuchárske knihy</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="encyklopedie.html">Encyklopédie</a>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
+        </div>
+
+
+        <div class="row odsadenie">
+          <div class="col-lg-2 col-sm-12">
+            <!-- Section: Filtre prebrate z: https://mdbootstrap.com/docs/b4/jquery/ecommerce/design-blocks/filters/-->
+            <section class="filtre">
+              <h5>Zoradiť podľa ceny:</h5>
+              <section class="mb-4">
+                <div class="form-check pl-0 mb-3">
+                  <input
+                    type="radio"
+                    class="filter-option form-check-input"
+                    id="pod10"
+                    name="materialExampleRadios"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="pod10"
+                    >Zostupne</label
+                  >
+                </div>
+                <div class="form-check pl-0 mb-3">
+                  <input
+                    type="radio"
+                    class="filter-option form-check-input"
+                    id="1020"
+                    name="materialExampleRadios"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="1020"
+                    >Vzostupne</label
+                  >
+                </div>
+              </section>
+            </section>
+            <section class="filtre">
+              <h5>Filtre</h5>
+              <!-- Section: Cena -->
+              <section class="mb-4">
+                <h6 class="font-weight-bold mb-3">Cena</h6>
+
+                <div class="form-check pl-0 mb-3">
+                  <input
+                    type="radio"
+                    class="filter-option form-check-input"
+                    id="pod100"
+                    name="materialExampleRadios"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="pod10"
+                    >Pod 10€</label
+                  >
+                </div>
+                <div class="form-check pl-0 mb-3">
+                  <input
+                    type="radio"
+                    class="filter-option form-check-input"
+                    id="10200"
+                    name="materialExampleRadios"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="1020"
+                    >10€ až 20€</label
+                  >
+                </div>
+                <div class="form-check pl-0 mb-3">
+                  <input
+                    type="radio"
+                    class="filter-option form-check-input"
+                    id="2050"
+                    name="materialExampleRadios"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="2050"
+                    >20€ až 50€</label
+                  >
+                </div>
+                <div class="form-check pl-0 mb-3">
+                  <input
+                    type="radio"
+                    class="filter-option form-check-input"
+                    id="od50"
+                    name="materialExampleRadios"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="od50"
+                    >50€ a viac</label
+                  >
+                </div>
+              </section>
+              <!-- Section: Cena -->
+              
+              <!-- Section: Jazyk -->
+              <section class="mb-4">
+                <h6 class="font-weight-bold mb-3">Jazyk</h6>
+
+                <div class="form-check pl-0 mb-3">
+                  <input
+                    type="checkbox"
+                    class="filter-option form-check-input filled-in"
+                    id="slovensky"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="slovensky"
+                    >Slovenský</label
+                  >
+                </div>
+                <div class="form-check pl-0 mb-3">
+                  <input
+                    type="checkbox"
+                    class="filter-option form-check-input filled-in"
+                    id="cesky"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="cesky"
+                    >Český</label
+                    >
+                </div>
+                <div class="form-check pl-0 mb-3">
+                  <input
+                    type="checkbox"
+                    class="filter-option form-check-input filled-in"
+                    id="anglicky"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="anglicky"
+                    >Anglický</label
+                  >
+                </div>
+                <div class="form-check pl-0 mb-3 pb-1">
+                  <input
+                    type="checkbox"
+                    class="filter-option form-check-input filled-in"
+                    id="nemecky"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="nemecky"
+                    >Nemecký</label
+                  >
+                </div>
+
+                <div class="form-check pl-0 mb-3 pb-1">
+                  <input
+                    type="checkbox"
+                    class="filter-option form-check-input filled-in"
+                    id="rusky"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="rusky"
+                    >Ruský</label
+                  >
+                </div>
+              </section>
+              <!-- Section: jazyk -->
+
+              <!-- Section: vydavatelstvo -->
+              <section  class="mb-4">
+                <h6 class="font-weight-bold mb-3">Vydavateľstvo</h6>
+
+                <div class="form-check pl-0 mb-3">
+                  <input
+                    type="checkbox"
+                    class="filter-option form-check-input filled-in"
+                    id="ikar"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="ikar"
+                    >Ikar</label
+                  >
+                </div>
+                <div class="form-check pl-0 mb-3">
+                  <input
+                    type="checkbox"
+                    class="filter-option form-check-input filled-in"
+                    id="mlade_leta"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="mlade_leta"
+                    >Mladé Letá</label
+                  >
+                </div>
+                <div class="form-check pl-0 mb-3">
+                  <input
+                    type="checkbox"
+                    class="filter-option form-check-input filled-in"
+                    id="slovart"
+                  />
+                  <label
+                    class="form-check-label small text-uppercase card-link-secondary"
+                    for="slovart"
+                    >Slovart</label
+                  >
+                </div>
+              </section>
+              <!-- Section: Vydavatelstvo-->
+            </section>
+          </div>
+          <div class="col-lg-10 col-sm-12">
+            <div class="row">
+              <h2>Informatika</h2>
+            </div>
+          </div>
+        </div>        
+      </div>
+
+      <footer class="odsadenie">
+        <div class="container footer_container">
+            <div class = "row">
+              <div class = "col-sm-2">
+                <a href="obchodne_podmienky.html"> Obchodné podmienky </a>
+              </div>
+              <div class = "col-sm-2" >
+                <a href="postovne_doprava.html"> Poštovné a doprava </a>
+              </div>
+              <div class = "col-sm-2">
+                <a href="najcastejsie_otazky.html"> Najčastejšie otázky </a>
+              </div>
+              <div class = "col-sm-2">
+                <a href="reklamacie.html"> Reklamácie </a>
+              </div>
+              <div class = "col-sm-4">
+                <a href="domovska_stranka.html">
+                  <img class="logo_footer" src="Obrazky/Ikony/logo_svetle.png" alt="logo">
+                </a>
+              </div>
+            </div>
+          </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
+

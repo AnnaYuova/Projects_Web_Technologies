@@ -1,0 +1,52 @@
+.riadok_cena_knihy{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.nazov_autor_produktu{
+    display: block;
+    height: 200px;
+}
+
+.knizka_obrazok{
+    width: 100%;
+    height: 100%;
+  }
+
+
+@media (max-width: 1399.98px)  {
+    .nazov_autor_produktu{
+        display: block;
+        height: 150px
+    }
+  }
+
+
+@media (max-width: 991.98px)  {
+    .nazov_autor_produktu{
+        display: block;
+        height: 300px
+    }
+    .knizka_prehlad_produktov{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767.98px)  {
+    .nazov_autor_produktu{
+        display: block;
+        height: 200px
+    }
+}
+
+@media (max-width: 575.98px)  {
+    .nazov_autor_produktu{
+        display: block;
+        height: 100px;
+    }
+    .knizka_prehlad_produktov{
+        margin-top: 20px;
+    }
+}
+
+  

@@ -1,0 +1,30 @@
+.sekcia_platby{
+    background-color: #DCDCDC;
+    padding: 20px 40px;
+    text-align: center;  
+    font-size: x-large;
+    font-weight: 600; 
+}
+
+.sekcia_dorucenie{
+    background-color: #BEBEBE;
+    padding: 20px 40px;
+    text-align: center;  
+    font-size: x-large;
+    font-weight: 600; 
+}
+
+.osobne_udaje{
+    margin-bottom: 20px;
+}
+
+.tlacidlo_objednavka{
+    text-align: right;
+    margin-top: 60px;
+}
+
+#text_alarm{
+    font-size: large;
+    font-weight: 700;
+    color: red;
+}

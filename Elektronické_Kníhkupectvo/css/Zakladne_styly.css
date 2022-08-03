@@ -1,0 +1,156 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+ }
+
+ a:hover{
+  color: gray;
+ }
+
+.header_container {
+  background-color: black;
+	display: block;
+}
+
+.prihlasenie{
+  text-align: right;
+}
+
+.login_symbol{
+  background-color: transparent;
+  width: 23px;
+}
+
+.logo {
+  width:220px;
+  height:80px;
+}
+
+.kosik{
+  margin-top: 18px;
+  width:50px;
+  height:50px;
+  align-self: center;
+}
+
+@media (max-width: 991.68px)  {
+  .stlpec_kosik{
+      float: left !important;
+      width: 47% !important;
+      text-align: right;
+     
+  }
+  .stlpec_vyhladavanie {
+    float: left !important;
+    width: 100% !important;
+    height: 80px;
+}
+}
+
+
+.container_search{
+  padding-top: 1%;
+  height: 100px;
+}
+
+.search-field {
+  width: 100%;
+}
+
+.search-button {
+  background-color: black;
+  width: 50px;
+  
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  height: 60%;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+
+}
+
+
+
+ul{
+  justify-content:center;
+}
+
+li{
+  padding: 0 22px;
+}
+
+.navbar-nav{
+  width: 100%;
+}
+
+.navigacia{
+  margin-top: 40px;
+}
+
+.footer_container{
+  background-color: black;
+  flex: 0%;
+}
+
+.logo_footer{
+  float:right;
+  width: 100px;
+  height: 50px;
+}
+
+.odporucame_text{
+  margin-top: 3%;
+}
+
+.odporucame{
+  text-align: center;
+}
+
+.kniha{
+  width: 60%;
+  height: 90%;
+}
+
+
+
+
+@media (max-width: 575.68px)  {
+  .zakaz_zlomu {
+      float: left !important;
+      width: 50% !important;
+  }
+}
+
+
+.odsadenie{
+  margin-top: 30px;
+}
+
+.pocet_v_kosiku{
+  font-size: 14px;
+  text-align: center;
+  background: black;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  border-radius: 50%;
+  width: 26px;
+
+}
+
+.pocitadielko{
+  margin-left: 30px;
+}

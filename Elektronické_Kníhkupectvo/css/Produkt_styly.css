@@ -1,0 +1,171 @@
+.odporucame_text{
+  margin-top: 3%;
+}
+
+.odporucame{
+  text-align: center;
+}
+
+.kniha{
+  width: 60%;
+  height: 90%;
+}
+
+.knizka_obrazok{
+  width: 100%;
+  height: 90%;
+}
+
+
+.riadok_cena_knihy{
+  margin-top: 30%;
+}
+
+@media (max-width: 991.98px){
+  .riadok_cena_knihy{
+    margin-top: 40%;
+  }
+}
+
+@media (max-width: 575.98px){
+  .riadok_cena_knihy{
+    margin-top: 0%;
+  }
+}
+
+.obrazok_produktu{
+  width: 80%;
+  height: 100%;
+}
+
+@media (max-width: 767.98px){
+  .obrazok_produktu{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media (max-width: 575.98px){
+  .obrazok_produktu{
+    width: 60%;
+    height: 90%;
+  }
+}
+
+@media (max-width: 575.98px){
+  .stlpec_obrazka_produktu{
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+
+/* Po riadok 79 prebrane z:https://bootsnipp.com/snippets/2eKOz */
+.qty .count {
+  color: #000;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  min-width: 35px;
+  text-align: center;
+}
+
+.qty .plus {
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  width: 30px;
+  height: 30px;
+  font: 30px/1 Arial,sans-serif;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.qty .minus {
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  width: 30px;
+  height: 30px;
+  font: 30px/1 Arial,sans-serif;
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+.tlacidlo_pridat_doKosika{
+  margin-top: 44px;
+}
+
+@media (max-width: 991.98px){
+  .tlacidlo_pridat_doKosika{
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .tlacidlo_pridat_doKosika{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 575.98px)  {
+  .parametre_knihy{
+      float: left !important;
+      width: 40% !important;
+  }
+}
+
+@media (max-width: 575.98px)  {
+  .pocitadlo {
+      float: left !important;
+      width: 60% !important;
+      margin-top: 10px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .pocitadlo{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 575.98px)  {
+  .tlacidlo_pridat_doKosika {
+      margin-top: 0px;
+      float: left !important;
+      width: 40% !important;
+  }
+}
+
+.odporucame_text{
+  margin-top: 3%;
+}
+
+.odporucame{
+  text-align: center;
+}
+
+.kniha{
+  width: 60%;
+  height: 90%;
+}
+
+.odporucame h5{
+  color: black;
+  align-self: left;
+}
+.odporucame h6{
+  color: black;
+  margin-top: 0px
+}
+
+.row .odporucame{
+  height: 10%;
+}
+p{
+  font-size: larger;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}

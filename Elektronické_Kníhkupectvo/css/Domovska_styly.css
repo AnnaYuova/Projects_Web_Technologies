@@ -1,0 +1,103 @@
+.novinky{
+    color:green;
+  }s
+
+p{
+    font-size: larger;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+}
+  
+.reklama{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reklama1{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+  .odporucame_text{
+    margin-top: 3%;
+  }
+  
+  .odporucame{
+    text-align: center;
+  }
+  
+  .kniha{
+    width: 60%;
+    height: 90%;
+  }
+
+  .odporucame h5{
+    color: black;
+    align-self: left;
+  }
+  .odporucame h6{
+    color: black;
+    margin-top: 0px
+  }
+
+  .row .odporucame{
+    height: 10%;
+  }
+
+  .row .right-carousel-control{
+    float: right;
+  }
+
+  .row .left-carousel-control{
+    float: left;
+  }
+
+  .novinky{
+    color:green;
+  }
+  
+  .reklama{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reklama1{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .odporucame_text{
+    margin-top: 3%;
+  }
+  
+  .odporucame{
+    text-align: center;
+  }
+  
+  .kniha{
+    width: 60%;
+    height: 90%;
+  }
+
+  .odporucame h5{
+    color: black;
+    align-self: left;
+  }
+  .odporucame h6{
+    color: black;
+    margin-top: 0px
+  }
+
+  .row .odporucame{
+    height: 10%;
+  }
+
+  

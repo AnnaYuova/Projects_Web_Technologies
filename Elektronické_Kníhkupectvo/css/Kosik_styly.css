@@ -1,0 +1,154 @@
+.sekcia_platby{
+    background-color: #DCDCDC;
+    padding: 20px 40px;
+    text-align: center;  
+    font-size: x-large;
+    font-weight: 600;  
+}
+
+.sekcia_kosik{
+    background-color: #BEBEBE;
+    padding: 20px 40px;
+    text-align: center; 
+    font-size: x-large;
+    font-weight: 600;   
+}
+
+.tlacidlo_objednavka{
+    text-align: right;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.kosik__riadok_s_parametrami{
+    margin-top: 30px;
+    background-color: black;
+    flex: 0%;
+    color: white;
+    font-size: 20px;
+    
+}
+
+@media (max-width: 767.98px)  {
+    .kosik__riadok_s_parametrami{
+        margin-top: 40px;
+        background-color: black;
+        flex: 0%;
+        color: white;
+        font-size: 15px;
+    }
+  }
+
+  
+.parameter{
+    padding-top: 13px;
+}
+
+.nazov_autor{
+    text-overflow: ellipsis;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 767.68px)  {
+    .nazov_autor{
+        text-overflow: ellipsis;
+        font-size: 15px;
+        font-weight: 500;
+    }
+ }
+
+/* Po riadok 79 prebrane z:https://bootsnipp.com/snippets/2eKOz */
+.qty .count {
+    color: #000;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    min-width: 35px;
+    text-align: center;
+  }
+  
+  .qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+.kos{
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+.obrazok_kos{
+    height: 40px;
+    width: 40px;
+}
+
+.cena{
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+@media (max-width: 767.98px)  {
+    .cena{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+ }
+
+ @media (max-width: 767.98px)  {
+    [data-input][type="number"]::-webkit-inner-spin-button, 
+    [data-input][type="number"]::-webkit-outer-spin-button {  
+   -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    }
+}
+
+.odsadenie_kosik{
+    margin-top: 40px;    
+}
+
+.riadok_produktu{
+    padding-bottom:20px ;
+    border-bottom: 2px solid;
+}
+
+@media (max-width: 991.98px)  {
+    .polozka {
+        float: left !important;
+        width: 30% !important;
+    }
+}
+
+.vyhodit_z_kosika{
+    text-align: right;
+}
+
+.cena_spolu{
+    background-color: #DCDCDC;
+    padding: 20px 40px;
+    text-align: center;  
+    font-size: 30px; 
+    font-weight: 500;
+    margin-top: 30px;
+}

@@ -1,0 +1,14 @@
+/*POSTOVNE A DOPRAVA*/
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .zahlavie{
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .cena{
+    font-weight: bold;
+  }

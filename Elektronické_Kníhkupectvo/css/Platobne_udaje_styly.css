@@ -1,0 +1,21 @@
+.sekcia_platby{
+    background-color: #DCDCDC;
+    padding: 20px 40px;
+    text-align: center; 
+    font-size: x-large;
+    font-weight: 600;   
+}
+
+.sekcia_platobne_udaje{
+    background-color: #BEBEBE;
+    padding: 20px 40px;
+    text-align: center; 
+    font-size: x-large;
+    font-weight: 600;   
+}
+
+.tlacidlo_objednavka{
+    text-align: right;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}

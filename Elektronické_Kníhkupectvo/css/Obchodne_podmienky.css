@@ -1,0 +1,24 @@
+/*OBCHODNÉ PDOMIENKY*/
+.sections ol {
+    counter-reset: item
+  }
+  .sections li {
+    display: block
+  }
+  .sections li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item
+  }
+  
+  .sections li{
+    font-weight: bold;
+  }
+  
+  .sections p{
+    text-align: justify;
+  }
+  
+  .sections .bez{
+    text-align: justify;
+    font-weight: normal;
+  }

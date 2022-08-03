@@ -1,0 +1,75 @@
+
+/*PRIHLASENIE, ZABUDNUTE HESLO*/
+.login form {
+    border: 3px solid gray;
+  }
+  
+  .login input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .login button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    float: right;
+  }
+  
+  .login button:hover {
+    opacity: 0.8;
+  }
+  
+  .login .container_log {
+    padding: 16px;
+  }
+  
+  .forget_psw a{
+    float: left;
+    color: black;
+  }
+  
+  h1{
+    color:black;
+  }
+  
+  .prihlasenie_text button{
+    background-color: #e4e6e7;
+    color: black;
+    margin: 8px 0;
+    border: 1%;
+    border-color: black;
+    cursor: pointer;
+    width: 80%;
+    float: right;
+  }
+  
+  .button_reg a{
+    color: black;
+    width: 80%;
+    text-align: center;
+    border: 1%;
+    border-color: black;
+    border: 1px solid black;
+  }
+  
+  .button_reg .button_r {
+    background-color: #e4e6e7;
+    margin: 8px 0;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /*REGISTRÁCIA*/
+  .terms a{
+    color:black;
+    font-weight: bold;
+  }
